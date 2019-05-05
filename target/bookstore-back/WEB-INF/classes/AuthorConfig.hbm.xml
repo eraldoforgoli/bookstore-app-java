@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name = "com.eraldo.dao.Author" table = "authors">
+
+        <meta attribute = "class-description">
+            This class contains the Author detail.
+        </meta>
+
+        <id name = "authorId" type = "int" column = "author_id">
+            <generator class="native"/>
+        </id>
+
+        <property name = "name" column = "name" type = "string"/>
+        <property name = "age" column = "age" type = "int"/>
+        <property name = "birthday" column = "birthday" type = "date"/>
+        <property name = "biography" column = "biography" type = "string"/>
+        <property name = "rating" column = "rating" type = "int"/>
+
+    </class>
+</hibernate-mapping>
