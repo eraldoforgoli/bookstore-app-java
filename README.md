@@ -1,2 +1,2 @@
 # bookstore-app-java
-Simple bookstore app using vue.js and Java 
+Backend using Java, Maven, Jersery, Hibernate, MySql for [bookstore-app-vue](https://github.com/eraldoforgoli/bookstore-app-vue)
